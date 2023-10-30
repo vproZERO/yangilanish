@@ -90,7 +90,7 @@
           
         </div>
         <div class="hover:bg-[#009789] mx-auto 2xl:hidden max-w-[380px] flex items-center justify-center mt-[24px] py-[16px] rounded-[5px] border-[#CFFFFA80] border-[3px] bg-[#0ACCBA] ">
-            <button class="text-white text-[16px] font-bold">Sotib oling</button>    
+            <button v-on:click="isOpen = !isOpen" class="text-white text-[16px] font-bold">Sotib oling</button>    
         </div>
       </div>
     </div>
