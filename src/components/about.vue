@@ -1,5 +1,5 @@
 <template>
-    <div class=" mx-auto bg-white pt-[150px]">
+    <div class=" mx-auto bg-white ">
         <div class="about_box hidden 2xl:flex m-auto w-[1300px] rounded-[15px] flex items-center justify-between">
             <div class="4cards py-[49px] pl-[30px] aos-init aos-animate" >
                 <div class="card m-auto max-w-[420px] h-[79px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px]">
@@ -75,43 +75,43 @@
                 </div>
             </div>
             <div class="cards py-[24px]">
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about1.png" alt="about1">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">O'zbekistonda yagona Mentorlik klubi asoschisiasd asd</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about2.png" alt="about2">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">Tadbirkor, bir necha biznes egasi.</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about3.png" alt="about3">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">100 dan ortiq shogirdlar ustozi</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about4.png" alt="about4">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">Biznes + Psixologiya bo'yicha trening yaratgan birinchi murabbiy</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about5.png" alt="about5">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">100 ta eng yaxshi Innovasion  loyiha ko'rik tanlovi Respublika 1-o'rin g'olibasi</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about6.png" alt="about6">
                     </div>
                     <p class="w-[280px] text-white text-[14px] font-normal">2020-2022 yil tuman Deputati. Tadbirkor ayol "Xalqaro ishbilarmon ayollar assotsiatsiyasi biznes va marketing murabbiysi".</p>
                 </div>
-                <div class="card m-auto max-w-[380px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
+                <div class="card m-auto max-w-[380px] flex items-center mt-[26px] py-[8px] px-[10px] rounded-[10px] gap-[10px] ">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
                         <img src="../assets/about7.png" alt="about7">
                     </div>

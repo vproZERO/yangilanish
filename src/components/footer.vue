@@ -67,7 +67,7 @@
                         <div>
                             <img src="../assets/form2.svg" alt="form input">
                         </div>
-                        <input id="tel" class="bg-[#FFFFFF1A] outline-none w-[246px] flex items-center "  type="text" placeholder="Telefon raqamingiz*">
+                        <input id="tel" class="bg-[#FFFFFF1A] outline-none w-[246px] flex items-center "  type="number" placeholder="Telefon raqamingiz*">
                     </div>
             </form>
             <button class=" hover:bg-[#009789] text-white text-[14px] font-bold bg-[#0ACCBA]  mt-[20px] mb-[30px]  py-[15px] border-[#7AE4D980] border-[3px] rounded-[5px]  w-[310px] mx-auto flex items-center justify-center">Yuborish</button>
