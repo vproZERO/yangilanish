@@ -2,7 +2,7 @@
     <div
         @click="$emit('toggleOpen', index)"
         :class="open ? 'faq open' : 'faq'"
-        class="border-b-[1.5px] 2xl:max-w-[900px] max-w-[330px] mx-auto 2xl:pb-[20px] 2xl:mb-[20px] pb-[10px] mb-[10px]"
+        class="border-b-[1.5px] mx-auto 2xl:max-w-[900px] max-w-[330px] mx-auto 2xl:pb-[20px] 2xl:mb-[20px] pb-[10px] mb-[10px]"
     >
         <div class="question text-[16px]   font-bold 2xl:text-[23px] 2xl:leading-[59px] ">
             <p class="max-w-[270px] 2xl:max-w-[900px]">{{ faq.question }}</p>
