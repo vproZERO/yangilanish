@@ -136,7 +136,7 @@
       class="bg-black fixed z-40 top-0 bottom-0 left-0 right-0 bg-opacity-[60%]"
     >
       <div
-        class="bg-white w-[700px] h-[450px] rounded-[30px] mx-auto mt-[5%] relative p-[50px]"
+        class="bg-white 2xl:w-[700px] 2xl:h-[450px] p-[15px]  2xl:rounded-[30px] mx-auto 2xl:mt-[5%] mt-[5%] relative 2xl:p-[50px] w-[380px] h-[330px] rounded-[0.5rem]"
       >
         <button
           v-on:click="isOpen = !isOpen"
@@ -148,19 +148,23 @@
           >
         </button>
         <div>
-          <h1 class="text-center font-semibold text-[48px] mb-[40px]">
+          <h1 class="text-center 2xl:block hidden font-semibold text-[48px] mb-[40px]">
             Ma'lumot olish
           </h1>
+          <div class="text-center 2xl:hidden block pb-[25px]">
+            <h3 class="text-black text-[12px] font-normal"> Menejerdan ma’lumot olish uchun </h3>
+            <h2 class="text-[#0ACCBA] text-[18px] font-extrabold text-center">Raqamingiz qoldiring</h2>
+          </div>
           <form>
             <input
-              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[20px] pl-[18px] w-full mb-[16px]"
+              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[16px] px-[15px] 2xl:py-[20px] 2xl:pl-[18px]   w-full mb-[16px] mx-auto"
               type="text"
               name="name"
               id="name"
               placeholder="Ismingiz"
             />
             <input
-              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[20px] pl-[18px] w-full mb-[30px]"
+              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[16px] px-[15px] 2xl:py-[20px] 2xl:pl-[18px] w-full mb-[30px]"
               type="tel"
               name="tel"
               id="tel"
@@ -168,7 +172,7 @@
             />
           </form>
           <button
-            class="w-full bg-[#0AD1BF] capitalize text-white font-bold text-[20px] py-[20px] rounded-[12px]"
+            class="w-full bg-[#0AD1BF] capitalize text-white 2xl:font-bold 2xl:text-[20px] 2xl:py-[20px] 2xl:rounded-[12px] rounded-[8px] text-[16px] py-[16px]"
           >
             yuborish
           </button>
