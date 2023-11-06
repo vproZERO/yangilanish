@@ -33,7 +33,9 @@
                     <p class="text-white text-[14px] font-normal w-[140px]">To'lovni qilib bo'lgach, skrinshotni jo'nating</p>
                 </div>
             </div>
-            <button class="hover:bg-[#009789] text-white text-[14px] font-bold bg-[#0ACCBA]  mt-[30px] px-[30px] w-full py-[15px] border-[#7AE4D980] border-[3px] rounded-[5px]  2xl:w-[700px] mx-auto flex items-center justify-center">Chekni Yuborish</button>
+            <button class="hover:bg-[#009789] text-white text-[14px] font-bold bg-[#0ACCBA]  mt-[30px] px-[30px] w-full py-[15px] border-[#7AE4D980] border-[3px] rounded-[5px]  2xl:w-[700px] mx-auto flex items-center justify-center">
+                <a target="blank" href="https://t.me/shaxnoza_siddiqova_manager">Chekni Yuborish</a>
+            </button>
 
             <div class="w-[700px] mx-auto 2xl:block hidden">
                 <h1 class="text-center text-white text-[32px] font-extrabold leading-8 py-[35px]">Ma'lumot olish</h1>
