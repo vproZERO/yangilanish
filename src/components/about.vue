@@ -1,6 +1,6 @@
 <template>
     <div class=" mx-auto bg-white ">
-        <div class="about_box hidden 2xl:flex m-auto w-[1300px] rounded-[15px] flex items-center justify-between">
+        <div class="about_box hidden 2xl:flex m-auto w-[1300px] mt-[150px] rounded-[15px] flex items-center justify-between">
             <div class="4cards py-[49px] pl-[30px] aos-init aos-animate" >
                 <div class="card m-auto max-w-[420px] h-[79px] flex items-center mt-[10px] py-[8px] px-[10px] rounded-[10px] gap-[10px]">
                     <div class="p-[10px] flex items-center justify-center rounded-[6px] bg-[#BDE5E126]">
