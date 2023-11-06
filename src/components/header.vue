@@ -136,14 +136,14 @@
       class="bg-black fixed z-40 top-0 bottom-0 left-0 right-0 bg-opacity-[60%]"
     >
       <div
-        class="bg-white 2xl:w-[700px] 2xl:h-[450px] p-[15px]  2xl:rounded-[30px] mx-auto 2xl:mt-[5%] mt-[5%] relative 2xl:p-[50px] w-[380px] h-[330px] rounded-[0.5rem]"
+        class="bg-white 2xl:w-[700px] 2xl:h-[450px] p-[15px]  2xl:rounded-[30px] mx-auto 2xl:mt-[5%] mt-[5%] relative 2xl:p-[50px] w-[360px] h-[330px] rounded-[0.5rem]"
       >
         <button
           v-on:click="isOpen = !isOpen"
-          class="absolute top-[-40px] right-[-30px]"
+          class="absolute 2xl:top-[-40px] top-[-30px] right-[-20px] 2xl:right-[-30px]"
         >
           <span
-            class="flex items-center justify-center h-[50px] text-white text-[50px] font-medium -rotate-45"
+            class="flex items-center justify-center 2xl:h-[50px] h-[30px] text-white 2xl:text-[50px] text-[40px] font-medium -rotate-45"
             >+</span
           >
         </button>
