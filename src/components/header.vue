@@ -1,6 +1,6 @@
 <template>
   <div class="2xl:flex items-center w-full mx-auto 2xl:h-auto bg-[#5F807D]">
-    <div class="left_box 2xl:w-full py-[50px] px-[16px] 2xl:border-[#5F807D] 2xl:border-r-[20px] ">
+    <div class="left_box 2xl:w-full py-[50px] px-[16px] 2xl:border-[#5F807D] 2xl:border-r-[20px] aps-init aos-animate" >
       <div class="2xl:pl-[50px]">
 
         <div class="2xl:p-[41px] px-[18px] py-[16px] max-w-[380px] rounded-[15px] border-[1px] border-[#FFFFFF80] bg-[#73B2AC59] backdrop-blur-[20px] 2xl:max-w-[890px] mx-auto mb-2.5">
@@ -81,21 +81,21 @@
             </div>
   
             <button
-              v-on:click="isOpen = !isOpen"
               class="hover:bg-[#009789] hidden border-[3px] border-[#CFFFFA80] bg-[#0ACCBA] text-white font-bold 2xl:block text-[20px] px-[30px] py-[20px] rounded-[5px]"
             >
-              Sotib olish
+              
+              <a href="#footer">Sotib olish</a>
             </button>
           </div>
           
         </div>
-        <div class="hover:bg-[#009789] mx-auto 2xl:hidden max-w-[380px] flex items-center justify-center mt-[24px] py-[16px] rounded-[5px] border-[#CFFFFA80] border-[3px] bg-[#0ACCBA] ">
+        <div class="hover:bg-[#009789] mx-auto 2xl:hidden max-w-[380px] flex items-center justify-center mt-[24px] py-[16px] rounded-[5px] border-[#CFFFFA80] border-[3px] bg-[#0ACCBA] aos-init aos-animate" data-aos="fade-right">
             <button v-on:click="isOpen = !isOpen" class="text-white text-[16px] font-bold">Sotib oling</button>    
         </div>
       </div>
     </div>
 
-    <div class="right_box w-full hidden 2xl:block py-[176px] px-[10px]">
+    <div class="right_box w-full hidden 2xl:block py-[176px] px-[10px] aos-init aos-animate" data-aos="fade-left" >
       <div>
         <iframe
           data-v-b4304bcf
@@ -112,8 +112,8 @@
       </div>
     </div>
 
-    <div class="block 2xl:hidden m-auto bg-white  py-[50px]">
-        <div class="">
+    <div class="block 2xl:hidden m-auto bg-white  py-[50px] " >
+        <div class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500">
           <div>
         <iframe
           data-v-b4304bcf
@@ -131,54 +131,7 @@
         </div>
     </div>
 
-    <div
-      :class="isOpen ? 'block' : 'hidden'"
-      class="bg-black fixed z-40 top-0 bottom-0 left-0 right-0 bg-opacity-[60%]"
-    >
-      <div
-        class="bg-white 2xl:w-[700px] 2xl:h-[450px] p-[15px]  2xl:rounded-[30px] mx-auto 2xl:mt-[5%] mt-[5%] relative 2xl:p-[50px] w-[360px] h-[330px] rounded-[0.5rem]"
-      >
-        <button
-          v-on:click="isOpen = !isOpen"
-          class="absolute 2xl:top-[-40px] top-[-30px] right-[-20px] 2xl:right-[-30px]"
-        >
-          <span
-            class="flex items-center justify-center 2xl:h-[50px] h-[30px] text-white 2xl:text-[50px] text-[40px] font-medium -rotate-45"
-            >+</span
-          >
-        </button>
-        <div>
-          <h1 class="text-center 2xl:block hidden font-semibold text-[48px] mb-[40px]">
-            Ma'lumot olish
-          </h1>
-          <div class="text-center 2xl:hidden block pb-[25px]">
-            <h3 class="text-black text-[12px] font-normal"> Menejerdan ma’lumot olish uchun </h3>
-            <h2 class="text-[#0ACCBA] text-[18px] font-extrabold text-center">Raqamingiz qoldiring</h2>
-          </div>
-          <form>
-            <input
-              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[16px] px-[15px] 2xl:py-[20px] 2xl:pl-[18px]   w-full mb-[16px] mx-auto"
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Ismingiz"
-            />
-            <input
-              class="border-[1px] border-[#C6C6C6] rounded-[12px] py-[16px] px-[15px] 2xl:py-[20px] 2xl:pl-[18px] w-full mb-[30px]"
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder="Telefon raqamingiz"
-            />
-          </form>
-          <button
-            class="w-full bg-[#0AD1BF] capitalize text-white 2xl:font-bold 2xl:text-[20px] 2xl:py-[20px] 2xl:rounded-[12px] rounded-[8px] text-[16px] py-[16px]"
-          >
-            yuborish
-          </button>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </template>
 <script>

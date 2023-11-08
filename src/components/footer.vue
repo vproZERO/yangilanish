@@ -1,6 +1,6 @@
 <template>
-    <div class="footer w-full mx-auto py-[50px] 2xl:pb-[150px]">
-        <div class="2xl:min-w-[900px] max-w-[380px]  m-auto  p-[20px] bg-[#FFFFFF1A] rounded-[10px] backdrop-blur-[39px] 2xl:mt-[25px]">
+    <div id="footer" class="footer w-full mx-auto py-[50px] 2xl:pb-[150px]">
+        <div class="2xl:min-w-[900px] max-w-[380px]  m-auto  p-[20px] bg-[#FFFFFF1A] rounded-[10px] backdrop-blur-[39px] 2xl:mt-[25px] aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1500">
             <h1 class=" text-center text-white text-[24px] 2xl:text-[32px] font-bold 2xl:font-extrabold ">Kursga to'lov qilish</h1>
             <div class="2xl:w-[700px] flex items-center justify-between px-[15px] py-[12px] backdrop-blur-[8px] rounded-[10px] mt-[30px] mx-auto">
                 <div class="flex items-center gap-[10px]">
@@ -9,12 +9,12 @@
                     </div>
                     <div>
                         <h2 class="text-white text-[12px] font-medium">Siddiqova Shahnozaxon</h2>
-                        <h1 class="text-white text-[16px] font-bold">8600030454974787</h1>
+                        <h1 id="copy-text" class="text-white text-[16px] font-bold">8600030454974787</h1>
                     </div>
                 </div>
-                <div>
+                <button  @click="copy()">
                     <img src="../assets/union2.svg" alt="union 2">
-                </div>
+                </button>
             </div>
             <div class="gap-4 2xl:gap-[10px] pt-[30px] flex items-end justify-center ">
                 <div class="flex items-center gap-[10px]">
@@ -56,7 +56,7 @@
             <button class=" hover:bg-[#009789] text-white text-[14px] font-bold bg-[#0ACCBA]  mt-[20px] mb-[30px]  py-[15px] border-[#7AE4D980] border-[3px] rounded-[5px]  w-[700px] mx-auto flex items-center justify-center">Yuborish</button>
             </div>
         </div>
-        <div class="m-auto max-w-[380px] flex 2xl:hidden items-center justify-center flex-col gap-3 p-[20px] mt-[50px] bg-[#FFFFFF1A] rounded-[10px]">
+        <div class="m-auto max-w-[380px] flex 2xl:hidden items-center justify-center flex-col gap-3 p-[20px] mt-[50px] bg-[#FFFFFF1A] rounded-[10px] aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1500">
             <h1 class="text-white text-[24px] font-bold">Ma'lumot olish</h1>
             <form >
                     <div class="flex items-center gap-[15px] justify-center px-[15px] py-[8px] mb-[20px] bg-[#FFFFFF1A] rounded-[10px]">
@@ -79,7 +79,12 @@
 </template>
 <script>
 export default {
-    
+    methods:{
+        copy() {
+            navigator.clipboard.writeText('8600030454974787');
+            
+        }
+    }
 }
 </script>
 <style scoped>

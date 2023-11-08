@@ -70,7 +70,7 @@ export default {
     }
     .faq.open .question::after{
         transform: translateY(-50%) rotate(180deg);
-        background-image: url("../assets/minus.png");
+        background-image: url("../assets/minus.svg");
     }
     .faq.open .answer{
         opacity: 1;
@@ -84,7 +84,7 @@ export default {
         transform: translateY(-50%) rotate(0deg);
         width: 30px;
         height: 30px;
-        background-image: url("../assets/plus.png");
+        background-image: url("../assets/plus.svg");
         background-position: center;
         background-size: contain;
         transition: all 0.4s linear;
