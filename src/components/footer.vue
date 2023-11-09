@@ -78,11 +78,17 @@
     </div>
 </template>
 <script>
+import Swal from 'sweetalert2'
 export default {
     methods:{
         copy() {
             navigator.clipboard.writeText('8600030454974787');
-            
+            Swal.fire({
+                icon: 'success',
+                title: 'NUSXA OLINDI!',
+                showConfirmButton: false,
+                timer: 1500
+            })
         }
     }
 }
